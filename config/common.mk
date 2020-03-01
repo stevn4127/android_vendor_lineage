@@ -205,6 +205,14 @@ PRODUCT_PACKAGES += \
     mkfs.ntfs \
     mount.ntfs
 
+# Pixel launcher
+PRODUCT_PACKAGES += \
+    NexusLauncherRelease
+
+# Overlays
+PRODUCT_PACKAGES += \
+    NexusLauncherReleaseOverlay
+
 # Openssh
 PRODUCT_PACKAGES += \
     scp \
